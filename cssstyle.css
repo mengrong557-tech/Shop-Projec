@@ -1,0 +1,595 @@
+.image {
+    width: 98.8%;
+    height: 100%;
+    background-image: url("image/download.jpg");
+    background-size: cover;
+    position: absolute;
+    border: solid 1px cornflowerblue;
+}
+
+.image1 {}
+
+.box {
+    width: 100%;
+    height: 100px;
+    border: 2px;
+    border-radius: 20px 20px 0 0;
+    background-color: lightskyblue;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(54, 5, 139);
+    display: inline-block;
+
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: rgb(9, 17, 156);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 20px;
+    right: 8px;
+}
+
+.menu .fa-solid {
+    padding-right: 7px;
+}
+
+.menu li a i {
+    align-items: last baseline;
+
+}
+
+.menu ul li:hover {
+    background-color: rgb(6, 167, 108);
+    color: white;
+    box-shadow: 2px 2px 5px rgb(10, 136, 205);
+    transition: 1s;
+}
+
+.menu li:hover a {
+    color: white;
+}
+
+.boxx {
+    width: 300px;
+    height: 100%;
+    background-color: lightskyblue;
+    border: solid 1px cornflowerblue;
+    align-items: center;
+    position: absolute;
+}
+
+.input-group {
+    align-items: center;
+    position: relative;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #fff;
+
+
+
+}
+
+.input-group:hover {
+    background-color: #191fd0;
+    transition: 0.53;
+}
+
+.input-group {
+    position: absolute;
+    left: 80%;
+    top: 9%;
+    display: inline-block;
+}
+
+.input-group :hover {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.input-group:hover i {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.login-box h1 {
+    color: rgb(8, 86, 138);
+    text-align: center;
+}
+
+.login-box {
+    padding: 30px;
+    width: 40%;
+    height: 40%;
+    border: solid cornflowerblue 2px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px rgb(26, 108, 222);
+}
+
+.loginbox {
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+
+}
+
+/* Input area */
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0b7ba8;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+
+
+
+}
+
+/* Input focus */
+.login input:focus {
+    border-color: #2193b0;
+}
+
+/* Login button */
+.login input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #2193b0;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+.login input[type="submit"]:hover {
+    background: #176a82;
+}
+
+/* Icons */
+.fa {
+    margin-right: 8px;
+    color: #2193b0;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:hover {
+    background-color: rgb(8, 102, 137);
+    color: white;
+    border-color: rgb(8, 102, 137);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+/* Placeholder color when focused */
+.login input::placeholder {
+    color: hsl(0, 10%, 92%);
+}
+
+.login input:focus::placeholder {
+    color: #e8e7e7;
+}
+
+.login-box td {
+    color: rgb(8, 102, 137);
+}
+
+.login-box {
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.model.shirt {
+    width: 420px;
+    height: 500px;
+    background-image: url("image/download-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 55%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+
+    filter: drop-shadow(0 20px 35px rgba(0, 0, 0, 0.25));
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+/* Hover effect */
+.model.shirt:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+    filter: drop-shadow(0 30px 45px rgba(0, 0, 0, 0.35));
+}
+
+.shirt.text {
+    position: absolute;
+    top: 18%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 24px;
+    color: rgb(235, 235, 236);
+    text-align: center;
+    text-shadow: #0b7ba8 2px 2px 4px;
+    text-box: inherit;
+}
+
+.shirt.text :hover {
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.shop.now {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(12, 40, 199);
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 2px 3px 5px #5757e7;
+}
+
+.shop.now a {
+    text-decoration: none;
+    color: white;
+}
+
+.shop.now:hover {
+    background-color: rgb(8, 86, 138);
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+.show.outfit {
+    width: 80%;
+    height: 200px;
+    background-color: rgb(242, 242, 246);
+    float: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 82%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.outfitD {
+    border: solid 1px beige;
+    width: 170px;
+    height: 180px;
+    background-position: center;
+    background-color: #e3dede;
+    position: absolute;
+    top: 8px;
+    left: 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+
+}
+
+.outfitD:hover {
+    box-shadow: 2px 2px 5px #333;
+    transition: 0.3s;
+}
+
+.outfitD1:hover {
+    box-shadow: 2px 2px 5px #333;
+    transition: 0.3s;
+}
+
+.outfitD1 {
+    border: solid 1px beige;
+    width: 170px;
+    height: 180px;
+    background-position: center;
+    background-color: #e3dede;
+    position: absolute;
+    top: 8px;
+    left: 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0 0 0 20%;
+}
+
+.outfitD2 {
+    border: solid 1px beige;
+    width: 170px;
+    height: 180px;
+    background-position: center;
+    background-color: #e3dede;
+    position: absolute;
+    top: 8px;
+    left: 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0 0 0 40%;
+}
+
+.outfitD2:hover {
+    box-shadow: 2px 2px 5px #333;
+    transition: 0.3s;
+}
+
+
+.boxshirt {
+    background-image: url(image/casual_sporty_summer_outfit-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 180px;
+    position: absolute;
+    top: -12px;
+    left: 15%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.boxshirt:hover {
+    transform: scale(1.05);
+}
+
+.boxshirt1 {
+    background-image: url("image/download__1_-removebg-preview-Picsart-AiImageEnhancer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    top: 5px;
+    left: 15%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.boxshirt1:hover {
+    transform: scale(1.05);
+}
+
+.boxshirt2 {
+    background-image: url("image/Outfits-removebg-preview-Picsart-AiImageEnhancer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    top: 5px;
+    left: 15%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.boxshirt2:hover {
+    transform: scale(1.05);
+}
+
+.bordertext {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgb(8, 86, 138);
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 80%;
+    left: 20px;
+}
+
+/* hover */
+.bordertext p:hover {
+    color: white;
+    transform: scale(1.05);
+    box-shadow: #333;
+    cursor: pointer;
+}
+
+.bordertext:hover {
+    background-color: rgb(8, 86, 138);
+    transition: 0.3s;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.bordertext p {
+    position: absolute;
+    overflow: scroll;
+    position: absolute;
+    font-weight: bold;
+    padding-left: 5%;
+    border-radius: 3px;
+    font-size: 18px;
+    color: rgb(8, 86, 138);
+    position: absolute;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 5px;
+    top: -50%;
+    left: 10px;
+
+}
+
+.boxdetial {
+    position: absolute;
+    top: 65%;
+    left: 8%;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 12px;
+    border: 1px solid rgb(8, 86, 138);
+    background-color: rgb(8, 86, 138);
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+}
+
+.boxdetial {
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+.boxdetial a {
+    text-decoration: none;
+    color: white;
+}
+
+.boxdetial:hover {
+    background-color: rgb(12, 40, 199);
+    transition: 0.3s;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 18px;
+    color: rgb(8, 86, 138);
+}
+
+.text p {
+    font-weight: bold;
+    clear: both;
+}
+
+.otherinfo {
+    width: 95%;
+    height: 100px;
+    background-color: rgb(236, 236, 238);
+    position: absolute;
+    top: 1%;
+    left: 2.5%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: #0b7ba8 2px 2px 5px;
+}
+
+.otherinfo a {
+    text-decoration: none;
+    color: rgb(8, 86, 138);
+}
+
+.otherinfo i {
+    margin-right: 8px;
+    color: rgb(8, 86, 138);
+}
+
+.otherinfo h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.otherinfo:hover {
+    background-color: rgb(4, 137, 38);
+    transition: 0.3s;
+    transition: calc(0.3s);
+
+}
+
+.otherinfo:hover h2 {
+    color: white;
+    transition: 0.3s;
+}
+
+.otherinfo:hover i {
+    color: white;
+    transition: 0.3s;
+}
+
+.shopping-cart {
+    width: 95%;
+    height: 100px;
+    background-color: rgb(234, 234, 239);
+    position: absolute;
+    top: 20%;
+    left: 2.5%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    line-height: 50px;
+    box-shadow: #0b7ba8 2px 2px 5px;
+}
+
+.shopping-cart a {
+    text-decoration: none;
+    color: rgb(8, 86, 138);
+}
+
+.shopping-cart h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.shopping-cart:hover {
+    background-color: rgb(3, 141, 31);
+    transition: 0.3s;
+}
+.shopping-cart:hover h2 {
+    color: white;
+    transition: 0.3s;
+}
+
+
+.select {
+    position: absolute;
+    top: 30%;
+    left: %;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 200px;
+}

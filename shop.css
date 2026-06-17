@@ -1,0 +1,198 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* ===== HEADER ===== */
+.main-products {
+    width: 100%;
+    background-color: rgb(64, 148, 232);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+/* Logo Text */
+.fashion-outfit {
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Search Section */
+.resherch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.resherch input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.resherch button {
+    background-color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resherch button i {
+    color: rgb(64, 148, 232);
+}
+
+/* ===== MAIN CONTENT ===== */
+.collection-text {
+    position: relative;
+    height: 200px;
+}
+
+.collection-text h1 {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke: 2px rgb(3, 17, 57);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+    background: linear-gradient(90deg, rgb(5, 62, 234), green, rgb(209, 246, 217));
+    background-size: 300%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: gradientMove 3s infinite linear;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0%;
+    }
+
+    50% {
+        background-position: 100%;
+    }
+
+    100% {
+        background-position: 0%;
+    }
+}
+
+/* ===== BANNER ===== */
+.box-banner {
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(90deg, rgb(7, 148, 59) 0%, rgb(64, 148, 232) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Banner Image */
+.banner-image1 img {
+    width: 350px;
+    max-width: 90%;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 1024px) {
+    .resherch input {
+        width: 220px;
+    }
+
+    .banner-image1 img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Products Section */
+    .product-sett {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        width: 200px;
+        height: 100px;
+        background-color: whitesmoke;
+    }
+
+    .main-products {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .resherch {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .resherch input {
+        width: 80%;
+    }
+
+    .box-banner {
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .banner-image1 img {
+        position: static;
+        width: 70%;
+        margin-top: 20px;
+        q
+    }
+
+    .banner-image1 img :hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+
+    .product-settn {
+        width: 30%;
+        height: 150px;
+        border-radius: 50px;
+        background-color: rgb(64, 148, 232);
+        display: flex;
+        border: 1px solid white;
+    }
+
+
+
+
+    .product-settn h1 {
+        color: white;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    /* Add hover effect to banner image */
